@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/lab6jsbanphu.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="usd">
+                <img src="./images/USD.png" alt="">
+                <span>USD</span>
+            </div>
+            <div class="logo">
+                <a href="#" id="logo"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <div class="cart">
+                <a href="#"><img src="./images/cart.png" alt="" id="GioHang"></a>
+                <span>CART</span>
+            </div>
+        </div>
+        <!-- end header -->
+        <hr>
+        <div class="menu">
+            <div class="menu-img">
+                <img src="./images/menu.png" alt="">
+            </div>
+            <div class="menu-desc">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">MEN</a></li>
+                    <li><a href="">WOMEN</a></li>
+                    <li><a href="">LOOKBOOK</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end menu -->
+        <hr>
+        <div id="contenttop">
+            <div class="conten-body-left">
+                <div class="body-left-top">
+                    <a href=""><img src="./images/Yasuo.jpg" alt="" id="imgGoc"></a>
+                </div>
+                <div class="body-left-bottom">
+                    <img src="./images/Yasuo.jpg" alt="" id="yasuo">
+                    <img src="./images/Akali.jpg" alt="" id="akali">
+                    <img src="./images/Lulu.jpg" alt="" id="lulu">
+                    <img src="./images/Jinx.jpg" alt="" id="jinx">
+                </div>
+            </div>
+            <!-- end conten-body-left -->
+            <div class="content-body-right">
+                <div class="body-right-top">
+                    <a href="">‹ Back to</a>
+                    <a href="" id='woman'>Woman</a>
+                    <h3 id="name"></h3>
+                    <span>Review(s) | </span>
+                    <span>Add a Review</span><br>
+                    <span id="dola">$</span>
+                    <span id="price"></span>
+                </div>
+                <!-- end body-right-top -->
+                <div class="body-right-content">
+                    <div class="availability">
+                        <span>Availability :</span>
+                        <span id="Availability"> In stock</span>
+                    </div>
+                    <!-- end availability -->
+                    <div class="product">
+                        <span>Product Code :</span>
+                        <span id="product">#4657</span>
+                    </div>
+                    <!-- end product -->
+                    <div class="tags">
+                        <span>Tags :</span>
+                        <span id="tags"> Fashion, Hood, Classic</span>
+                    </div>
+                    <!-- end tags -->
+                    <div class="content-right">
+                        <p id="content-text">Already a guest, Yasuo is extremely suited to the Blood Moon style with Samurai armor. All effects of the Intolerant have been radically changed by Riot Games and look amazing.</p>
+                        <span>• Dark blue suit for a tone-on-tone look</span>
+                        <span>• Regular fit</span>
+                        <span>• 100% Cotton</span>
+                        <span>• Free shipping with 4 days delivery</span>
+                    </div>
+                    <!-- end content-right -->
+                    <div class="body-select">
+                        <div class="color">
+                            <span>COLOR</span>
+                            <select name="" id="color">
+                                <option value="select-color">select color</option>
+                                <option value="red">red</option>
+                                <option value="blue">blue</option>
+                                <option value="pinky">pinky</option>
+                            </select>
+                            <span id="enrrorColor"></span>
+                            <a href="#" id="clear">Clear Selection</a>
+                        </div>
+                        <div class="size">
+                            <span>SIZE</span>
+                            <select name="" id="size">
+                                <option value="zezo">select size</option>
+                                <option value="480 x 720">480 x 720</option>
+                                <option value="1000 x 1300">1000 x 1300</option>
+                                <option value="2000 x 2400">2000 x 2400</option>
+                            </select>
+                            <span id="enrrorSize"></span>
+                        </div>
+                        <div class="QTY">
+                            <span>QTY</span>
+                            <input type="number" min="1" id="QTY">
+                            <span id="enrrorQTY"></span>
+                        </div>
+                    </div>
+                    <!-- end body-select -->
+                </div>
+                <!-- end body-right-content -->
+                <div class="body-right-bottom">
+                    <div class="add-to">
+                        <a href="#" id="add-cart">ADD TO CART</a>
+                        <a href="#" id="add-wishlist">ADD TO WISHLIST</a>
+                    </div>
+                    <hr>
+                    <div class="share-ship">
+                        <span>SHARE THIS</span>
+                        <div class="facebook">
+                            <a href=""><img src="./images/like.png"" alt="" id=" like"></a>
+                            <a href=""><img src="./images//share.png" alt="" id="share"></a>
+                            <img src="./images//235k.png" alt="" id="235k">
+                        </div>
+                        <div class="tweet">
+                            <a href=""><img src="./images/tweet-2.png" alt="" id="tweet"></a>
+                            <img src="./images//93.png" alt="" id="93">
+                        </div>
+                        <div class="pintt">
+                            <a href=""><img src="./images/pin.png" alt="" id="pin"></a>
+                            <img src="./images/65k.png" alt="" id="65k">
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <!-- end body-right-bottom -->
+            </div>
+            <!-- end conten-body-right -->
+        </div>
+        <!-- end contenttop -->
+        <div id="contentbottom">
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>PRODUCT NAME</th>
+                            <th>COLOR</th>
+                            <th>SIZE</th>
+                            <th>PRICE</th>
+                            <th>QUANTITY</th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        <tr id="tbody">
+                            <td id="nameSP"></td>
+                            <td id="colorSP"></td>
+                            <td id="sizeSP"></td>
+                            <td id="priceSP"></td>
+                            <td id="quantitySP"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- end table -->
+            <div class="checkMa">
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <span> Sử dụng mã giảm giá</span>
+                </div>
+                <div class="sumDesc">
+                    <div class="tamTinh">
+                        <span>Tạm tính:</span>
+                        <span id="provisional"></span>
+                    </div>
+                    <div class="sale">
+                        <span>Khuyến mãi:</span>
+                        <span id="sale"></span>
+                    </div>
+                   <div class="total">
+                    <span>Tổng tiền:</span>
+                    <span id="total"></span>
+                   </div>
+                </div>
+            </div>
+            <!-- end checkMa -->
+            <div class="information">
+                <div class="khachHang">
+                    <span>Thông tin khách hàng</span>
+                </div>
+                <div class="validate">
+                    <div class="validate-desc">
+                        <span>Họ và tên: </span>
+                        <span>Số điện thoại:</span>
+                        <span>Địa chỉ:</span>
+                    </div>
+                    <div class="validate-infor">
+                        <form action="">
+                            <input type="text" placeholder="Nhập họ và tên" id="namePer" required  >
+                            <input type="number" placeholder="Nhập số điện thoại" id="numberPhone" min="1" required >
+                            <input type="text" placeholder="Nhập địa chỉ" id="address" required>
+                            <div class="addCart">
+                                <a href="#" id="deleteAdd">HỦY ĐƠN HÀNG</a>
+                                <button id="pay">THANH TOÁN</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end information -->
+        </div>
+        <!-- end contentbottom -->
+        <hr>
+        <div class="footer">
+            <span>Made with Love & Coffee © 2015 Design Lazy. All Rights Reserved.</span>
+        </div>
+        <!-- end footer -->
+    </div>
+    <!-- end container -->
+    <script src="./javascript/lab6jsbanphu.js"></script>
+</body>
+
+</html>
